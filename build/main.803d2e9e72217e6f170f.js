@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.ts\");\n\n(0,_test__WEBPACK_IMPORTED_MODULE_0__.someFn)(234);\n\n\n//# sourceURL=webpack://production-project/./src/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.ts\");\n\n(0,_test__WEBPACK_IMPORTED_MODULE_0__.someFn)(2134);\n\n\n//# sourceURL=webpack://production-project/./src/index.ts?");
 
 /***/ }),
 

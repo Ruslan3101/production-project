@@ -1,2 +1,2 @@
 import {someFn} from "./test";
-someFn(234);
+someFn(2134);
