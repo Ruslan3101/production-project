@@ -8,7 +8,7 @@
     "module": "ESNext",
     // В каккую спецификацию компилируем: для поддержки большинства браузеров
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     //Компилятор будет обрабатывать не только TS файлы но и JS
     "allowJs": true,
     "moduleResolution": "node",
@@ -20,12 +20,12 @@
     //с флагои результат [object Object]
     // console.log(Moment)
     "esModuleInterop": true,
-//    Если какая-либо библиотека не имеет default import,
-//    лодеры вроде ts-loader или  babel-loader автоматически создают их,
-//    вместо такого импорта,
-//    import * as React from 'react' ;
-//    можно писать такой
-//    import React from 'react'
+    //    Если какая-либо библиотека не имеет default import,
+    //    лодеры вроде ts-loader или  babel-loader автоматически создают их,
+    //    вместо такого импорта,
+    //    import * as React from 'react' ;
+    //    можно писать такой
+    //    import React from 'react'
     "allowSyntheticDefaultImports": true
   },
   "ts-node": {
