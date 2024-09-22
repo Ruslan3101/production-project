@@ -19,6 +19,10 @@
     // console.log(Moment);
     //с флагои результат [object Object]
     // console.log(Moment)
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     "esModuleInterop": true,
     //    Если какая-либо библиотека не имеет default import,
     //    лодеры вроде ts-loader или  babel-loader автоматически создают их,
