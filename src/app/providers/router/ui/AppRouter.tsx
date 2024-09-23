@@ -4,7 +4,7 @@ import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import { routeConfig } from "shared/config/routeConfig/routeConfig";
 
-const AppRouter = () => {
+export const AppRouter = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
@@ -16,4 +16,4 @@ const AppRouter = () => {
   );
 };
 
-export default AppRouter;
+
