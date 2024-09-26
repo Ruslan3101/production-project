@@ -1,4 +1,5 @@
 {
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+  "i18n-ally.localesPaths": ["public/locales", "src/shared/config/i18n"]
 }
