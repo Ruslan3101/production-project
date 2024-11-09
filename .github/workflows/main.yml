@@ -7,7 +7,6 @@ pull_request:
   branches: [ main ]
 jobs:
    pipeline: 
-
       runs-on: ubuntu-latest
       strategy:
         matrix:
