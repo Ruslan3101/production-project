@@ -7,6 +7,7 @@ pull_request:
   branches: [ main ]
 jobs:
    pipeline: 
+
       runs-on: ubuntu-latest
       strategy:
         matrix:
@@ -15,7 +16,7 @@ jobs:
       steps:
       - uses: actions/checkout@v2
       - name: Staring Node.js ${{ matrix.node-version }}
-        user: actions/step-node@v1
+        user: actions/setup-node@v1
       with: 
         node-version: ${{ matrix-version }}
       - name: install modules
