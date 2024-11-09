@@ -15,7 +15,7 @@
       "scss"  
   ],
   "editor.codeActionsOnSave": {
-  "source.fixAll.stylelint": true
-},
+    "source.fixAll.stylelint": "explicit"
+  },
 "i18n-ally.keystyle": "nested",
 }
