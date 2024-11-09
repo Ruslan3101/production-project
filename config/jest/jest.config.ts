@@ -1,4 +1,4 @@
-import path from "path";
+import path from 'path';
 
 /**
  * For a detailed explanation regarding each configuration property, visit:
