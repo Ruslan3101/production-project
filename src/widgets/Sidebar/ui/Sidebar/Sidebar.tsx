@@ -59,7 +59,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                     <span
                         className={cls.link}
                     >
-                        {t('Main Page')}
+                        {t('About')}
                     </span>
                 </AppLink>
             </div>
