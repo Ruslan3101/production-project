@@ -27,18 +27,34 @@ export const Clear: Story = {
         theme: ButtonTheme.CLEAR,
     },
 };
-export const Outline: Story = {
-    args: {
-        children: 'Text',
-        theme: ButtonTheme.OUTLINE,
-    },
-};
 export const OutlineDark: Story = {
     args: {
         children: 'Text',
         theme: ButtonTheme.OUTLINE,
     },
     decorators: [ThemeDecorator(Theme.DARK)],
+};
+
+export const Outline: Story = {
+    args: {
+        children: 'Text',
+        theme: ButtonTheme.OUTLINE,
+    },
+};
+export const OutlineSizeL: Story = {
+    args: {
+        children: 'Text',
+        theme: ButtonTheme.OUTLINE,
+        size: ButtonSize.L,
+    },
+};
+
+export const OutlineSizeXL: Story = {
+    args: {
+        children: 'Text',
+        theme: ButtonTheme.OUTLINE,
+        size: ButtonSize.XL,
+    },
 };
 
 export const BackgroundTheme: Story = {
